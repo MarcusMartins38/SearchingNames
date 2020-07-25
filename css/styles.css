@@ -1,14 +1,13 @@
 body {
   margin: 0 auto;
   max-width: 1200px;
-}
 
-header h1 {
-  margin-top: 88px;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 #titulo_header {
   text-align: center;
+  margin-top: 88px;
 
   font-size: 48px;
   font-weight: bold;

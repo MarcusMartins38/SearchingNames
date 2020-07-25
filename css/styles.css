@@ -1,0 +1,121 @@
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  border: 1px solid black;
+}
+
+header h1 {
+  margin-top: 88px;
+}
+
+#titulo_header {
+  text-align: center;
+
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#div_search {
+  width: 100%;
+  margin-top: 64px;
+
+  display: flex;
+}
+
+#div_search input {
+  margin-left: 12px;
+  flex: 1;
+}
+
+#div_search button {
+  width: 88px;
+  height: 32px;
+  margin-left: 12px;
+  margin-right: 12px;
+
+  cursor: pointer;
+  background-color: #4328f6;
+  border: 0;
+  border-radius: 5px;
+
+  color: white;
+  font-weight: bold;
+}
+
+#div_body_central {
+  width: 100%;
+  margin: 32px auto;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+#div_list_of_users {
+  width: 45%;
+  max-height: 500px;
+
+  margin-left: 24px;
+
+  border: 1px solid black;
+}
+
+#div_list_of_users h1 {
+  text-align: center;
+  font-size: 30px;
+
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+#div_list_of_users ul {
+  max-height: 380px;
+
+  overflow-y: scroll;
+}
+
+#div_list_of_users ul li {
+  text-align: center;
+  margin-left: 24px;
+
+  display: flex;
+  align-items: center;
+}
+
+#div_list_of_users ul li img {
+  border-radius: 50%;
+
+  margin: 8px 12px 8px 0;
+
+  width: 50px;
+  height: 50px;
+}
+
+#div_info_calculated {
+  width: 45%;
+  max-height: 300px;
+
+  margin-right: 24px;
+
+  border: 1px solid black;
+}
+
+#div_info_calculated h1 {
+  text-align: center;
+  font-size: 30px;
+
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+#div_info_calculated div {
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+#div_info_calculated div p {
+  margin: 6px 0;
+}
+
+#div_info_calculated div strong {
+  font-weight: bold;
+}

@@ -1,7 +1,6 @@
 body {
   margin: 0 auto;
   max-width: 1200px;
-  border: 1px solid black;
 }
 
 header h1 {
@@ -71,6 +70,10 @@ header h1 {
   max-height: 380px;
 
   overflow-y: scroll;
+}
+
+#div_list_of_users ::-webkit-scrollbar {
+  display: none;
 }
 
 #div_list_of_users ul li {
